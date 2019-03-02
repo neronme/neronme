@@ -1,0 +1,221 @@
+*{
+    width:100%;
+    
+}
+
+header {
+    background-image: url(../images/bg-banner_01.png);
+    padding: 0;
+    margin: 0;
+    height: 950px;
+}
+
+header h2 {
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+
+}
+
+header a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header a:hover {
+    color: orangered;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+.as :not(:first-child) {
+    margin-left: 30px;
+}
+
+header h1 {
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    margin-top: 320px;
+}
+
+header p {
+    width: 900px;
+    text-align: center;
+    margin-left: 0px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+header button {
+    width: 200px;
+    height: 70px;
+    border: 1px solid orange;
+    background: orange;
+    border-radius: 7px;
+    outline: none !important;
+    cursor: pointer;
+    margin-top: 130px;
+    margin-left: 45px;
+}
+
+header button:hover {
+    border: 4px solid orangered;
+    background: transparent;
+    border-radius: 7px;
+    color: aliceblue
+}
+
+.medium {
+    background: #af2525;
+    height:100%; 
+    width: 100%;
+}
+
+
+.medium img {
+    margin-top: 120px;
+    margin-left: 50px;
+    margin-bottom: 70px;
+}
+
+.medium h2 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+    margin-left: 140px;
+    margin-top: 150px;
+    color: aliceblue;
+}
+
+.medium hr {
+    width: 100px;
+    background: #fff;
+    margin-left: 190px;
+}
+
+.medium p {
+    font-size: 18px;
+    width: 510px;
+    text-align: center;
+    margin-top: 50px;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+  
+}
+
+.down{
+    background-image: url('../images/bgsection_02.png');
+    height: 480px;
+    width: 100%;
+}
+
+.down h2{
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    margin-top: 150px;
+    margin-left: 30px;
+}
+
+.down hr{
+    width: 100px;
+    background: red; 
+    margin-left: 100px;
+}
+
+.down p{
+    font-size: 18px;
+    width: 495px;
+    text-align: center;
+    margin-top: 50px;
+    color: aliceblue;
+    margin-left: -110px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu{
+    height: 100%;
+    background: antiquewhite;
+}
+
+.menu h2{
+    color: black;
+    font-family: 'Kaushan Script', cursive;
+    margin-top: 50px;
+    font-size: 50px;
+    margin-left: 60px;
+}
+
+.menu hr{
+    width:100px;
+    background: red;
+    margin-left: 120px;
+    margin-bottom: 60px;
+}
+
+.menu h5{
+    margin-left: -30px;
+    font-size: 18px;;
+}
+
+.menu p{
+    color: black;
+    width: 470px;
+    margin-left: -30px;
+    font-size: 18px;
+    margin-bottom: 100px;
+    font-family:  'Mali', cursive;
+}
+
+.menu span{
+    margin-left: 32px;
+    color: red;
+}
+
+
+.img #carouselExampleControls{
+   height: 365px;
+   margin-left: -60px;
+   margin-bottom: 40px;
+}
+
+#carouselExampleControls img{
+    height: 365px;
+    
+}
+
+.img {
+    background: #af2525;
+    padding: 10px;
+}
+
+.img h3{
+    font-family: 'Mali', cursive;
+    margin-top: 100px;
+}
+
+.img button{
+    width: 200px;
+    height: 70px;
+    margin-left: 30px;
+    margin-top: 40px;
+    font-size: 30px;
+    border-radius: 7px; 
+    background: yellow;
+    outline: none;
+    border: 2px solid yellow;
+    color: black;
+
+}
+.img button:hover{
+  border:  4px solid yellow;
+  background: transparent;
+  outline: none;
+  color: blue;
+  cursor: pointer
+}
+
+footer img{
+    width: 100%;
+}
